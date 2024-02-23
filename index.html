@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/script.js"></script>
+</head>
+<body onload = "tabTime()"> <!-- tabTime function assigns the tabindex "0" to each preview image -->
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Spiral Galaxy NGC 628" src = "images/galaxy-ngc-628.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+	
+	<img class = "preview" alt = "Spiral Galaxy NGC 5195" src = "images/galaxy-ngc-5195.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+	
+	<img class = "preview" src = "images/galaxy-ngc1087.jpg" alt = "Spiral Galaxy NGC 1087" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" src = "images/herbig-haro-object.jpg" alt = "Herbig-Haro object 211" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" src = "images/messier-42-orion-nebula.jpg" alt = "Messier 42 - Orion Nebula" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" src = "images/rho-ophiuchi.jpg" alt = "Rho Ophiuchi star forming region" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" src = "images/ring-nebula.jpg" alt = "The Ring Nebula" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" src = "images/supernova-remnant-cassiopeia-a.jpg" alt = "Supernova remnant, Cassiopeia A" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+	
+	<img class = "preview" src = "images/uranus.png" alt = "The planet Uranus" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+	
+	<script  src="js/script.js"></script>
+
+</body>
+</html>
